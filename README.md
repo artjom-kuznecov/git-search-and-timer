@@ -1,8 +1,13 @@
-# React + Vite
+# Search for GIT Repositories and Pomodoro Timer!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project contains 2 applications:
+1. Git Search
+   - Working on GitHub Repositories API!
+   - Type repo name in text field, and get all repos and their info with similar name
+   - Clicking a repo card will redirect to GitHub
+   - All data saves in LocalStorage with custom React hook
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Pomodoro Timer
+   - Optimize your break and work time!
+   - Press the settings button to configure your time
+   - Be warned by ringing bell!
