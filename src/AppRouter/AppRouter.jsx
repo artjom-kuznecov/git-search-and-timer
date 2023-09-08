@@ -4,8 +4,7 @@ import {routes} from '../routes/routes'
 
 
 const AppRouter = () => {
-    return (
-        
+    return (   
         <Routes>
             {routes.map(r => <Route key = {r.path} path = {r.path} element={<r.element/>}/>)}
             <Route path="/*" element={<Navigate to="/git-search" replace  />} />

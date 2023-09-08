@@ -6,14 +6,17 @@ import AppRouter from './AppRouter/AppRouter';
 import Navbar from './UI/Navbar/Navbar';
 
 
-
 function App() {
 
   return (
     <BrowserRouter basename='/git-search-and-timer'>
+      
       <Navbar/>
       <AppRouter/>
+      
     </BrowserRouter>
+    
+
 
 )}
 

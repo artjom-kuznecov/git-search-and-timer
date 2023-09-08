@@ -4,9 +4,9 @@ import Timer from './components/Timer/Timer.jsx'
 
 import {useLocalStorage} from '../../hooks/useLocalStorage'
 
-export default function PomodoroTimer() {
 
-  
+const PomodoroTimer = () => {
+
   const [workMinutes, setWorkMinutes] = useLocalStorage(45, "work")
   const [breakMinutes, setBreakMinutes] = useLocalStorage(15, "break")
 
@@ -23,3 +23,5 @@ export default function PomodoroTimer() {
     </div>
   )
 }
+
+export default PomodoroTimer
