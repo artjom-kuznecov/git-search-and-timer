@@ -1,5 +1,5 @@
 # Search for GIT Repositories and Pomodoro Timer!
-
+Check out: https://artjom-kuznecov.github.io/git-search-and-timer
 Project contains 2 applications:
 1. Git Search
    - Working on GitHub Repositories API!
