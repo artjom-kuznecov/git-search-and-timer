@@ -1,0 +1,39 @@
+.nb {
+  height: 12vh;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.nbB {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 3 0 auto;
+  text-align: center;
+}
+
+.nbBGit {
+  background-color: #e8a87c;
+}
+
+.nbBPom {
+  background-color: #41b3a3;
+}
+
+.nbBQui {
+  background-color: #e27d60;
+}
+.nbLs {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.nbL {
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+  font-size: 30px;
+}

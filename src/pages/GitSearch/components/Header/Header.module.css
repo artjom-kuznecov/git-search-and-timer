@@ -1,0 +1,42 @@
+.h{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.i{
+    font-size: 30px;
+    width: 75%;
+    height: 70px;
+    border: 1px #A2A3A4 solid;
+}
+
+.b{
+    background-color: #85DCBA;
+    height: 74px;
+    width: 60px;
+    border: 1px #A2A3A4 solid;
+    cursor: pointer;
+}
+
+.b:hover{
+    background-color: #e8a87c;
+    height: 74px;
+    width: 60px;
+    border: 1px #85DCBA solid;
+    cursor: pointer;
+    transition: 500ms;
+}
+.b:hover div{
+    border: 5px solid #85DCBA;
+    background-color: #e8a87c;
+    transition: 500ms;
+}
+.b:hover div::after{
+    background-color: #85DCBA;
+    transition: 500ms;
+}

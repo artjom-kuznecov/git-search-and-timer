@@ -1,0 +1,10 @@
+.se { 
+    width: 70px;
+    font-size: 24px;
+    height: 32px;
+    appearance: none;
+    border-radius: 3px;
+    border: 3px solid black;
+    overflow: hidden;
+    background: url('./arrow.png') no-repeat right;
+  }

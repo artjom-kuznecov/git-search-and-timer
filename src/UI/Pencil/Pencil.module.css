@@ -1,0 +1,27 @@
+.p {
+    width: 10px ;
+    height: 30px ;
+    background: #e8a87c ;
+    margin-left: 15px;
+    position: relative ;
+    transform: rotate(45deg);
+}
+.p::before {
+    content: "" ;
+    position: absolute ;
+    width: 10px ;
+    height: 10px ;
+    background: #e8a87c ;
+    top: -11px ;
+    left: 0px;
+}
+.p::after {
+    content: "" ;
+    position: absolute ;
+    width: 8px ;
+    height: 8px ;
+    background: #e8a87c ;
+    left: 1px ;
+    bottom: -4px ;
+    transform: rotate(45deg);
+}

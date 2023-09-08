@@ -1,0 +1,17 @@
+.l {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed #f98334;
+    animation: rotate 2s infinite linear;
+    margin: 50px auto;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) scale(2) scale(0.5);
+    }
+    to {
+        transform: rotate(360deg) scale(0.5) scale(2);
+    }
+}

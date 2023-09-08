@@ -1,0 +1,100 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 440px;
+    height: 180px;
+
+    padding: 9px;
+    margin-bottom: 20px;
+    background-color: #f8a46d;
+    border: 1px solid #85DCBA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+
+    cursor: pointer;
+
+}
+
+
+.title{
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 18px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.avatar{
+    margin-right: 60px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+.info__recense{
+    display: flex;
+}
+
+.info__img{
+    width: 25px;
+
+}
+
+.rate{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.views{
+    display: flex;
+    align-items: center;
+}
+
+.comment{
+    display: flex;
+
+    height: 55px;
+
+
+}
+
+.comment__input{
+    width: 85%;
+}
+.comment__button{
+    cursor: pointer;
+    width: 15%;
+    background-color: #85DCBA;
+    border: 1px solid #f8a46d;
+}
+
+.comment__button:hover{
+    background-color: #f8a46d;
+    border: 1px solid #85DCBA;
+    transition: 300ms;
+}
+
+.comment__button:hover>div{
+    background-color: #85DCBA;
+}
+
+.comment__button:hover>div::before{
+    background-color: #85DCBA;
+}
+
+.comment__button:hover>div:after{
+    background-color: #85DCBA;
+}

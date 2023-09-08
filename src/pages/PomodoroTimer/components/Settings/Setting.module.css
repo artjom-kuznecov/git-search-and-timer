@@ -1,0 +1,24 @@
+.wrapper{
+    margin: 30px 60px;
+}
+
+.text{
+    font-size: 25px;
+}
+.slider {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border: 2px solid ;
+    border-radius: 60px;
+    margin: 10px;
+    
+}
+
+.th {
+    background-color: #e1c6ce;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}

@@ -1,0 +1,41 @@
+.pag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item {
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+.active {
+    background: #85DCBA;
+    color: #fff;
+}
+
+.nex {
+    width: 3px;
+    height: 3px;
+    border-top: 4px solid #000000 !important;
+    border-right: 4px solid #000000 !important;
+    margin: -2px 2px -2px -12px;
+    transform: rotate(45deg);
+    display: inline-block;
+    transition: 1s;    
+}
+
+.pre {
+    width: 3px;
+    height: 3px;
+    border-top: 4px solid #000000 !important;
+    border-right: 4px solid #000000 !important;
+    margin: -2px -12px -2px 5px;
+    transform: rotate(-135deg);
+    display: inline-block;
+    transition: 1s;
+}
