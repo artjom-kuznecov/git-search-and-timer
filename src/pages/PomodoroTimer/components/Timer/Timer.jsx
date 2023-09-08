@@ -51,6 +51,10 @@ export default function Timer() {
         return;
       }
       if (secondsLeftRef.current === 0) {
+        let sign = new Audio()
+        sign.preload = 'auto';
+        sign.src = 'bell-ringing-05.mp3';
+        sign.play();
         return switchMode();
       }
 

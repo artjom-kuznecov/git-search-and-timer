@@ -10,7 +10,7 @@ import Navbar from './UI/Navbar/Navbar';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/git-search-and-timer'>
       <Navbar/>
       <AppRouter/>
     </BrowserRouter>
